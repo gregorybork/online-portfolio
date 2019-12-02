@@ -13,6 +13,7 @@ body {
 
 ::-webkit-scrollbar {
   width: 0;
+  background: transparent;
 }
 
 #progressbar {
@@ -22,7 +23,7 @@ body {
   width: 15px;
   height: 100%;
   border-radius: 10px;
-  background: linear-gradient(to top, black, #fd1d1d, #833ab4);
+  background: linear-gradient(to top, #eaae5b, #fd1d1d, #fed136);
 }
 
 
