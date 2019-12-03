@@ -2,6 +2,8 @@ class HomeController < ApplicationController
   def index
       @contact = Home.new(params[:home])
     end
+
+
     skip_before_action :verify_authenticity_token
 
     def create
@@ -18,5 +20,8 @@ class HomeController < ApplicationController
           format.js   { flash.now[:error] = @message = "Message did not send." }
         end
       end
+    end
+
+    def photoshop
     end
 end
