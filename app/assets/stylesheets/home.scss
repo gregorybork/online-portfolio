@@ -16,6 +16,8 @@ body {
   background: transparent;
 }
 
+
+
 #progressbar {
   position: fixed;
   top: 0;
@@ -26,20 +28,34 @@ body {
   background: linear-gradient(to top, #eaae5b, #fd1d1d, black);
 }
 
+@media (max-width: 1023px){
+#logoTop {
+    display:none;
+}
+
+#logo {
+  display: none;
+}
+}
+
+@media (min-width:1024px){
 #logoTop {
   position: fixed;
   z-index: 99999999;
   width: 100%;
   height: 100vh;
   background-color: #212529;
+
 }
 
 #logo {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   animation: filling 0.5s ease forwards 3.8s;
+  background-position: center center;
+  background-size: cover;
 }
 
 #logo path:nth-child(1){
@@ -100,8 +116,7 @@ body {
   }
 }
 
-
-
+}
 
 
 
