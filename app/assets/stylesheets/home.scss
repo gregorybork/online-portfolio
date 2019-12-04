@@ -326,6 +326,21 @@ img::-moz-selection {
 
 
 //main header display ---pic/
+@media (max-width: 500px) {
+header.masthead {
+  text-align: center;
+  color: white;
+  background-image: url("../assets/mainimgMobile.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+}
+
+
+
+@media (min-width: 500px) {
 header.masthead {
   text-align: center;
   color: white;
@@ -334,7 +349,7 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-
+}
 }
 
 //prevents squishing
