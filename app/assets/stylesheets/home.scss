@@ -657,7 +657,8 @@ section#contact {
   background-color: #212529;
   background-image: url("../assets/contact-img.jpg");
   background-repeat: no-repeat;
-  background-position: fixed-bottom;
+  background-position: center center;
+  background-size: cover;
 }
 
 section#contact .section-heading {
